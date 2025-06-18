@@ -235,6 +235,3 @@ if st.button("Reset Conversation"):
     st.session_state.messages = []
     st.session_state.current_emotion = "neutral"
     st.rerun()
-
-# Footer
-st.markdown('<div class="footer">Made with ❤️ | Reactive AI Agent | Streamlit</div>', unsafe_allow_html=True)
